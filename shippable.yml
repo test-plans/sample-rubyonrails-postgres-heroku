@@ -5,6 +5,9 @@ rvm:
 
 build_image: drydock/u12rubpls:tip
 
+services:
+  - postgres
+  
 env:
   global:
     - APP_NAME=fierce-plains-1014
