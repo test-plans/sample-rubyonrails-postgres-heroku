@@ -1,6 +1,9 @@
 language: ruby
+
 rvm:
   - 1.9.3
+
+build_image: drydock/u12rubpls:tip
 
 env:
   global:
