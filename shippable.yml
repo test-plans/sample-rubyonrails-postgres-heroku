@@ -6,7 +6,7 @@ env:
   global:
     - APP_NAME=sample-rubyonrails-postgres
     - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
-    - secure: Br5hESyJpqAcrEt245GXqwPsN6znVvj5W9+ysSGRJqODBwhki4aPdNcotm0QQSqzK0z7T/2bZwG0lpIFmJjnBeh9/TVSAp8RAjos8OJsz/sd742aTv5cLT4cBP8FZfu5RaStVbBYVDs9ndr1vQTJ6u+WXNzDI4izKlWoHuBfC7H9H7C7RMTt9MSbu0oucPTE6N8aCZ5TtqDwxkNv6rJvORSrFyMCWsfKJr6arA2/H7jtymAffpV5pQE16rla7vrFFcoY2PwUin04ks0qW67P4IFLyXgsc4Y6j+kuZE2bYOwNcJIBiNmZ5tlfQf+PUk4ZBn0zdWJwxJywg/Pxs3FHYA==
+    #- secure: Br5hESyJpqAcrEt245GXqwPsN6znVvj5W9+ysSGRJqODBwhki4aPdNcotm0QQSqzK0z7T/2bZwG0lpIFmJjnBeh9/TVSAp8RAjos8OJsz/sd742aTv5cLT4cBP8FZfu5RaStVbBYVDs9ndr1vQTJ6u+WXNzDI4izKlWoHuBfC7H9H7C7RMTt9MSbu0oucPTE6N8aCZ5TtqDwxkNv6rJvORSrFyMCWsfKJr6arA2/H7jtymAffpV5pQE16rla7vrFFcoY2PwUin04ks0qW67P4IFLyXgsc4Y6j+kuZE2bYOwNcJIBiNmZ5tlfQf+PUk4ZBn0zdWJwxJywg/Pxs3FHYA==
   
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
